@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+	<title>Регистрация</title>
+    </head>
+    <body>
+	    
+      <fieldset>
+          <div>
+                <label for="textField">Имя пользователя</label>
+                <input id="textField" type="text" placeholder="Text" required maxlength="20">
+            </div>
+            <div>
+                <label for="passwordField">Поле для пароля</label>
+                <input id="passwordField" type="password">
+            </div>
+
+            <fieldset>
+                <legend>пол пользователя группа</legend>
+
+                <label><input name="sex" type="radio">Мужской</label>
+                <label><input name="sex" type="radio">Женский</label>
+               
+
+        <div>
+            <label for="emailField">Адрес электронной почты</label>
+            <input id="emailField" type="email">
+        </div>
+        <div>
+            <label for="phoneField">Поле для телефона</label>
+            <input id="phoneField" type="tel" pattern="2[0-9]{3}-[0-9]{3}">
+        </div>
+
+            <div>
+                <label for="imageFileField">Аватар пользователя</label>
+                <input id="imageFileField" type="file" accept="image/*">
+            </div>
+            </fieldset>
+
+             <fieldset>
+                <legend>Группа флажков</legend>
+
+                <label><input name="message[]" type="checkbox">Сообщение №1</label>
+                <label><input name="message[]" type="checkbox">Сообщение №1</label>
+                <label><input name="message[]" type="checkbox">Сообщение №1</label>
+            </fieldset>
+
+              <fieldset>
+            <legend>Поле со списком</legend>
+
+            <select>
+                <option value="1">Item 1</option>
+                <option value="2">Item 2</option>
+                <option value="3">Item 3</option>
+                <option value="4">Item 4</option>
+                <option value="5">Item 5</option>
+            </select>
+            </fieldset>
+
+
+             
+    </body>
+</html>

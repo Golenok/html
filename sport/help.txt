@@ -1,0 +1,7 @@
+Понедельник   Monday 
+вторник       Tuesday  
+среда         environment 
+четверг       Thursday 
+пятница       Friday
+суббота       Saturday
+воскресенье   Sunday

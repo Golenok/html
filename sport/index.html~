@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+	<title>Спорт</title>
+        </head>
+            <body>
+               <table>
+                   <caption>Меню сайта</caption> 
+                       <tr>
+                           <th>Спортивные упражнения</th>
+                           <th>Вход/Регистрация</th>
+                       </tr>
+                       <tr>
+                           <td> <a href="trainings.html">Упражнения</a></td>
+                           <td> <a href="registration.html">Вход/Регистрация</a></td>
+                       </tr>
+                </table>
+                           <h3 aligan="center">Расписание тренировок</h3>
+                               <ul tupe="square"> 
+                                   <li> <a href="mon.html">Понедельник</a></li>
+                                   <li> <a href="tue.html">Вторник</a></li>
+                                   <li> <a href="env.html">Среда</a></li>
+                                   <li> <a href="thu.html">Четверг</a></li>                                           <li> <a href="fri.html">Пятница</a></li>
+                                   <li> <a href="sat.html">Суббота</a></li>
+                                   <li> <a href="sun.html">Воскресенье</a></li>
+                               </ul>
+    </body>
+</html>
